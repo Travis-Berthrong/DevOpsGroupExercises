@@ -33,3 +33,17 @@ graph TD;
 - Continuous improvement and minimization of waste: Devops preaches automating repetitive tasks to watch perfomance metrics for way to improve.
 - Hyperfocus on user needs with short feedback loops: Through automation, improved communication and collaboration, and continuous improvement, DevOps teams can take a moment and focus on what real users really want, and how to give it to them.
 
+# Layman Representation
+
+``` mermaid
+graph TD;
+    Plan --> Code;
+    Code --> Build;
+    Build --> Test;
+    Test --> Release;
+    Release --> Deploy;
+    Deploy --> Operate;
+    Operate --> Monitor;
+    Monitor --> Plan;
+```
+
